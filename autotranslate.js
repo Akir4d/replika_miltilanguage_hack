@@ -59,7 +59,6 @@ function addButtons() {
     if (!jQuery('#toTranslate').length) {
         jQuery('[data-testid=chat-controls-emoji-keyboard-button]').parent().prepend('<button id="toTranslate" style="display:inline" onclick="translateTo()">T</button><button id="fromTranslate" style="display:none" onclick="translateFrom()" >U</button>');
         jQuery('[id=send-message-textarea]').on('keyup', (i, e) => {
-            iSaid = jQuery(e).val();
             unTrans();
         });
     }
