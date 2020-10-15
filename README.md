@@ -21,3 +21,7 @@ How to use:
 - paste script and send it with return
 
 You can use Grease monkey to load script automatically.
+
+# Limits:
+
+You can translate also what you write, but you have to edit english (by add a space for example) before send it.
