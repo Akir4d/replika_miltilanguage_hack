@@ -19,7 +19,7 @@ How to use:
 - open console (right click -> inspect -> search between tabs console)
 - paste script and send it with return
 
-You can use Greasemonkey Tampermonkey etc to load script automatically.
+You can use Greasemonkey Tampermonkey etc to load your script automatically.
 
 # Limits:
 
