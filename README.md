@@ -9,7 +9,7 @@ How to use:
 - Activate Cloud Translation API
 - make a key on credential 
 - open the script with text editor and overwrite YOUR-GOOGLE-API-KEY-HERE with that key
-- change var lang = 'it' (with your language example: var lang = 'es' -> Spanish; var lang = 'fr' -> French; etc)
+- change var lang = 'it' (with your language, eg: var lang = 'es' -> Spanish; var lang = 'fr' -> French; etc)
 - save the script
 
 # How to Test:
