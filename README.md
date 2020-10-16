@@ -2,7 +2,8 @@
 
 This is a simple script allow you to translate replika.ai (only web edition)
 
-How to use:
+
+# How to use:
 
 - go to https://console.developers.google.com (if not do yet activate register your credit card, you can use all service gartis but limited by quantity,  mind you pay only if you recharge credit, otherwise instead pay services it just stop working)
 - Create a project
@@ -19,7 +20,11 @@ How to use:
 - open console (right click -> inspect -> search between tabs console)
 - paste script and send it with return
 
-You can use Greasemonkey Tampermonkey etc to load your script automatically.
+# How to Install:
+- install Tampermonkey or Greasemonkey extention
+- click on it and choose install new script
+- Delete all and paste this script with your key and language edited (see "how to use")
+- save and check if on installed script "Replika Translator" is active
 
 # Limits:
 
