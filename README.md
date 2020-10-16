@@ -15,8 +15,7 @@ This is a simple script allow you to translate replika.ai (only web edition)
 
 # How to Test:
 
-- Open replika.ia
-- login
+- Open my.replika.ia and login
 - open console (right click -> inspect -> search between tabs console)
 - paste script and send it with return
 
@@ -25,6 +24,7 @@ This is a simple script allow you to translate replika.ai (only web edition)
 - click on it and choose install new script
 - Delete all and paste this script with your key and language edited (see "how to use")
 - save and check if on installed script "Replika Translator" is active
+- reload my.replica.ia
 
 # Limits:
 
