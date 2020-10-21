@@ -4,6 +4,7 @@
 // @description  try to take over the world!
 // @author       Paolo Rampino
 // @match        https://my.replika.ai/
+// @match        https://my.replika.ai/*
 // @grant    none
 // ==/UserScript==
 
