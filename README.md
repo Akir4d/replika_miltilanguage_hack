@@ -29,3 +29,7 @@ This is a simple script allow you to translate replika.ai (only web edition), if
 # Limits:
 
 Also you can translate what you are writing, but you have to edit english (by add a space for example) before send it.
+
+# ScreenShot:
+
+![](screenshots.png "Test")
