@@ -32,4 +32,5 @@ Also you can translate what you are writing, but you have to edit english (by ad
 
 # ScreenShot:
 
+You have just to press T to translate from/to your language
 ![](screenshot.png "Test")
