@@ -32,4 +32,4 @@ Also you can translate what you are writing, but you have to edit english (by ad
 
 # ScreenShot:
 
-![](screenshots.png "Test")
+![](screenshot.png "Test")
