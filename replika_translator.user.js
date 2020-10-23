@@ -100,7 +100,7 @@ javascript: (function(e, s) {
         function translateFrom() {
             jQuery('#fromTranslate').attr('style', 'display: none');
             jQuery('#toTranslate').attr('style', 'display: inline');
-            jQuery('[id=send-message-textarea]').val(allIsaid);
+            jQuery('[id=send-message-textarea]').val(allIsaid.replace(/[\u00A0-\u9999<>\&]/gim, function(i) { return '&#'+i.charCodeAt(0)+';';}));
         }
         </script>
         `);
