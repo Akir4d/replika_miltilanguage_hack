@@ -1,4 +1,4 @@
-# replika-miltilanguage-hack
+# replika-miltilanguage-user-script
 
 This is a simple script allow you to translate replika.ai (only web edition), if it works for your don't miss to star project!
 
