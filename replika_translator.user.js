@@ -79,7 +79,7 @@ javascript: (function(e, s) {
         
         function addButtons() {
             if (!jQuery('#toTranslate').length) {
-                jQuery('[data-testid=chat-controls-emoji-keyboard-button]').parent().prepend('<button id="toTranslate" style="display:inline" onclick="translateTo()">T</button><button id="fromTranslate" style="display:none" onclick="translateFrom()" >U</button>');
+                jQuery('[id=upload-image-to-chat]').parent().parent().prepend('<button id="toTranslate" style="display:inline" onclick="translateTo()">T</button><button id="fromTranslate" style="display:none" onclick="translateFrom()" >U</button>');
                 jQuery('[id=send-message-textarea]').on('keyup', () => {
                     unTrans();
                 });
@@ -101,7 +101,7 @@ javascript: (function(e, s) {
         function translateFrom() {
             jQuery('#fromTranslate').attr('style', 'display: none');
             jQuery('#toTranslate').attr('style', 'display: inline');
-            jQuery('[id=send-message-textarea]').val(allIsaid.replace(/[\u00A0-\u9999<>\&]/gim, function(i) { return '&#'+i.charCodeAt(0)+';';}));
+            jQuery('[id=send-message-textarea]').val(allIsaid);
         }
         </script>
         `);
