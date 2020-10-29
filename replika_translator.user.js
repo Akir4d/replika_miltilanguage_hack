@@ -66,10 +66,11 @@ javascript: (function(e, s) {
             url += "&target=" + target;
             url += "&key=` + myKey + `";
             jQuery.get(url, function(data, status) {
+                let nmessage = new DOMParser().parseFromString(data.data.translations[0].translatedText, "text/html").documentElement.textContent;
                 if (useVal) {
-                    jQuery('#' + tid).val(data.data.translations[0].translatedText);
+                    jQuery('#' + tid).val(nmessage).html(nmessage).trigger({type: 'keypress', which: 13, keyCode: 13});
                 } else {
-                    jQuery('#' + tid).html('<hr>' + data.data.translations[0].translatedText);
+                    jQuery('#' + tid).html('<hr>' + nmessage);
                 }
             });
         };
