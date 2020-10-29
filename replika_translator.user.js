@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Replica Translator
 // @version      0.2
-// @description  Multilanguage user script source Github repo https://github.com/Akir4d/replika-miltilanguage-hack
+// @description  Multilanguage user script, Github repo https://github.com/Akir4d/replika-miltilanguage-hack
 // @author       Paolo Rampino
 // @match        https://my.replika.ai/
 // @match        https://my.replika.ai/*
